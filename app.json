@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "WorkHive",
+    "slug": "workhive",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FBBF24"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.workhive.app"
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font",
+      "@react-native-google-signin/google-signin",
+      "@react-native-community/datetimepicker"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FBBF24"
+      },
+      "package": "com.workhive.app",
+      "googleServicesFile": "./google-services.json"
+    }
+  }
+}

@@ -29,6 +29,11 @@
       },
       "package": "com.workhive.app",
       "googleServicesFile": "./google-services.json"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d4674117-3ad2-40d8-b33b-70cff01fa391"
+      }
     }
   }
 }

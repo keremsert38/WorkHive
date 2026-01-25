@@ -1,4 +1,4 @@
-package com.helloworld
+package com.workhive.app
 
 import android.app.Application
 import android.content.res.Configuration
